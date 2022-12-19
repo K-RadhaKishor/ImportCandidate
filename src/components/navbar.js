@@ -33,7 +33,9 @@ const NavBar=(props)=>{
       </ul>
         <a className="d-flex link-light">
         <FaUserCircle size={'1.5rem'} className='mx-2'/>
+        
         </a>
+        Radha kishor
         <div className='mx-2 me-2'>
             <div style={{fontSize:'1rem', color:'white'}}>{props.adminName}</div>
             <div style={{fontSize:'0.7rem',color:'white'}}>{props.roleName}</div>
