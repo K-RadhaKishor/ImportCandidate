@@ -21,7 +21,7 @@ const NavBar=(props)=>{
     return(
 <nav  className="navbar navbar-expand-lg navbar-primary bg-primary"  >
   <div className="container-fluid">
-    <span className="navbar-brand ms-2 ms-4">Panel Management</span>
+    <span className="navbar-brand ms-2 ms-4"><b>Panel Management</b></span>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,7 +35,7 @@ const NavBar=(props)=>{
         <FaUserCircle size={'1.5rem'} className='mx-2'/>
         
         </a>
-        Radha kishor
+       <b> Radha kishor</b>
         <div className='mx-2 me-2'>
             <div style={{fontSize:'1rem', color:'white'}}>{props.adminName}</div>
             <div style={{fontSize:'0.7rem',color:'white'}}>{props.roleName}</div>
