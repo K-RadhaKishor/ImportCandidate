@@ -7,7 +7,7 @@ import './App.css';
 import Home from './pages/home';
 import Add from './pages/add';
 import Edit from './pages/edit';
-import Import from './pages/import';
+import Import from './pages/Import2';
 
 const App = () => {
   return (
